@@ -38,6 +38,9 @@ return [
     ],
 ];
 
+MYSQL ga kirib baza yarating
+test_vazifa
+
 php yii migrate
 php yii rbac/init
 php yii migrate/up --migrationPath=@vendor/costa-rico/yii2-images/migrations
