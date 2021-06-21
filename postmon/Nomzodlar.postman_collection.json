@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "563b9712-c723-40a8-a299-e1007d3496cb",
+		"name": "Nomzodlar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Nomzod yarating (create)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ali",
+							"type": "text"
+						},
+						{
+							"key": "family_name",
+							"value": "Asqarov",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Samarqand viloyati Samarqand tumani 11-uy",
+							"type": "text"
+						},
+						{
+							"key": "country_of_origin",
+							"value": "O'zbekiston",
+							"type": "text"
+						},
+						{
+							"key": "email_adress",
+							"value": "Usmonkulov5@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "+998906550543",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "hired",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "test-vazifa/api/nomzod",
+					"host": [
+						"test-vazifa"
+					],
+					"path": [
+						"api",
+						"nomzod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nomzodlar (index)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Xt2LwjAZJxktKkXrmurDgzxEWlPkf6xG",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "test-vazifa/api/nomzod",
+					"host": [
+						"test-vazifa"
+					],
+					"path": [
+						"api",
+						"nomzod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nomzodni ID bilan ko'rish (view)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "AgYHgxNcCnUADsXpka9mjo1sGU7yMsvM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "test-vazifa/api/nomzod/1",
+					"host": [
+						"test-vazifa"
+					],
+					"path": [
+						"api",
+						"nomzod",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "O'chirish (delete)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nomzodni tahrirlang ID bilan (update)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Xt2LwjAZJxktKkXrmurDgzxEWlPkf6xG",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ali",
+							"type": "text"
+						},
+						{
+							"key": "family_name",
+							"value": "Asqarov",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Samarqand viloyati Samarqand 11-uy",
+							"type": "text"
+						},
+						{
+							"key": "country_of_origin",
+							"value": "O'zbekiston",
+							"type": "text"
+						},
+						{
+							"key": "email_adress",
+							"value": "Usmonkulov5@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "+998906550543",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "hired",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "test-vazifa/api/nomzod/2",
+					"host": [
+						"test-vazifa"
+					],
+					"path": [
+						"api",
+						"nomzod",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

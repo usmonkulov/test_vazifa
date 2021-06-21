@@ -1,0 +1,42 @@
+.uploadlogo-label{
+     background-image: url("no-image.png");
+     background-size: 100% 100%;
+     width: 260px;
+     height: 70px;
+     border: 1px solid #ccc;;
+     /*border-radius: 25px;*/
+     margin-right: 5px;
+     cursor: pointer;
+     position: relative;
+}
+.uploadlogo-label:hover{
+     background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQyIDQyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MiA0MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiPgo8cGF0aCBzdHlsZT0iZmlsbDojMjNBMjREOyIgZD0iTTM3LjA1OSwxNkgyNlY0Ljk0MUMyNiwyLjIyNCwyMy43MTgsMCwyMSwwcy01LDIuMjI0LTUsNC45NDFWMTZINC45NDFDMi4yMjQsMTYsMCwxOC4yODIsMCwyMSAgczIuMjI0LDUsNC45NDEsNUgxNnYxMS4wNTlDMTYsMzkuNzc2LDE4LjI4Miw0MiwyMSw0MnM1LTIuMjI0LDUtNC45NDFWMjZoMTEuMDU5QzM5Ljc3NiwyNiw0MiwyMy43MTgsNDIsMjFTMzkuNzc2LDE2LDM3LjA1OSwxNnoiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==)!important;
+     background-size: 45px 45px;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+label.uploadlogo-label .udalit{
+     position: absolute!important;
+     right: 0px!important;
+     top: -20px;
+     width: 40px!important;
+     font-size: 11px!important;
+     z-index: 9;
+}
+.uploadlogo-image{
+     opacity: 0;
+     width: 260px;
+     height: 70px;
+}
+.uploadlogo-container .form-group{
+     float: left;
+     padding: 10px;
+}
+.floatLeft{
+     float: left;
+     padding-top: 25px;
+}
+span.floatLeft{
+     padding-top: 12px;
+     margin-top: 10px;
+}

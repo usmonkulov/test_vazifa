@@ -1,0 +1,297 @@
+.grid-view thead tr th:first-child{
+	width: 35px!important;
+}
+
+.grid-view thead tr th:last-child{
+	width: 70px!important;
+}
+
+.page-index .grid-view thead tr th:nth-child(3){
+	width: 150px!important;
+	text-align:center;
+}
+
+.page-index .grid-view thead tr th:nth-child(4){
+	width: 150px!important;
+	text-align:center;
+}
+
+.detail-view tbody tr th{
+	width: 15%!important;
+}
+
+.post-index .grid-view thead tr th:nth-child(3){
+	width: 150px!important;
+	text-align:center;
+}
+
+.post-index .grid-view thead tr th:nth-child(4){
+	width: 150px!important;
+	text-align:center;
+}
+
+.post-index .grid-view thead tr th:nth-child(5){
+	width: 150px!important;
+	text-align:center;
+}
+
+.post-index .grid-view thead tr th:nth-child(6){
+	width: 80px!important;
+	text-align:center;
+}
+.post-index .grid-view thead tr th:nth-child(7){
+	width: 150px!important;
+	text-align:center;
+}
+
+.post-index .grid-view tr td{
+	text-align:center;
+}
+
+.post-index .grid-view tr td:nth-child(2){
+	text-align:left;
+}
+
+.page-index .grid-view tr td{
+	text-align:center;
+}
+
+.page-index .grid-view tr td:nth-child(2){
+	text-align:left;
+}
+
+.user-index .grid-view thead tr th:nth-child(3){
+	width: 18%!important;
+	text-align:center;
+}
+.user-index .grid-view thead tr th:nth-child(4){
+	width: 15%!important;
+	text-align:center;
+}
+.user-index .grid-view thead tr th:nth-child(5){
+	width: 15%!important;
+	text-align:center;
+}
+.user-index .grid-view thead tr th:nth-child(6){
+	width: 15%!important;
+	text-align:center;
+}
+
+.user-index .grid-view tr td{
+	text-align:center;
+}
+
+.user-index .grid-view tr td:nth-child(2){
+	text-align:left;
+}
+
+.user-view tbody tr th{
+	width: 25%!important;
+}
+
+.user-view table{
+	width: 40%!important;
+	margin: auto;
+}
+.user-view p{
+	margin-left: 30%;
+}
+
+.publicity-index .grid-view thead tr th:nth-child(2){
+	width: 60%!important;
+	text-align:center;
+}
+.publicity-index .grid-view thead tr th:nth-child(3){
+	width: 15%!important;
+	text-align:center;
+}
+.publicity-index .grid-view thead tr th:nth-child(4){
+	width: 15%!important;
+	text-align:center;
+}
+.publicity-index .grid-view tr td{
+	text-align:center;
+}
+.publicity-view p{
+	margin-left: 13%;
+}
+
+.publicity-view table{
+	width: 75%!important;
+	margin: auto;
+}
+.publicity-form{
+	margin-left: 18%;
+}
+.slaydir-index .grid-view thead tr th:nth-child(2){
+	width: 30%!important;
+	text-align:center;
+}
+.slaydir-index .grid-view thead tr th:nth-child(3){
+	width: 30%!important;
+	text-align:center;
+}
+.slaydir-index .grid-view thead tr th:nth-child(4){
+	width: 30%!important;
+	text-align:center;
+}
+
+.slaydir-index .grid-view tr td{
+	text-align:center;
+}
+
+.slaydir-view p{
+	margin-left: 10%;
+}
+
+.slaydir-view table{
+	width: 80%!important;
+	margin: auto;
+}
+.slaydir-form{
+	margin-left: 20%;
+}
+.explanation-index .grid-view tr td:nth-child(2){
+	text-align:left;
+}
+.explanation-index .grid-view thead tr th:nth-child(2){
+	width: 35%!important;
+	text-align:left;
+}
+.explanation-index .grid-view thead tr th:nth-child(3){
+	width: 35%!important;
+	text-align:center;
+}
+.explanation-index .grid-view thead tr th:nth-child(4){
+	width: 20%!important;
+	text-align:center;
+}
+.explanation-index .grid-view tr td{
+	text-align:center;
+}
+
+
+.document-index .grid-view thead tr th:nth-child(2){
+	width: 30%!important;
+	text-align:left;
+}
+.document-index .grid-view thead tr th:nth-child(3){
+	width: 30%!important;
+	text-align:center;
+}
+.document-index .grid-view thead tr th:nth-child(4){
+	width: 30%!important;
+	text-align:center;
+}
+.document-index .grid-view tr td{
+	text-align:center;
+}
+
+.characteristics-index .grid-view thead tr th:nth-child(2){
+	width: 30%!important;
+	text-align:center;
+}
+.characteristics-index .grid-view thead tr th:nth-child(3){
+	width: 30%!important;
+	text-align:center;
+}
+.characteristics-index .grid-view thead tr th:nth-child(4){
+	width: 30%!important;
+	text-align:center;
+}
+.characteristics-index .grid-view tr td{
+	text-align:center;
+}
+
+
+.reports-index .grid-view thead tr th:nth-child(2){
+	width: 30%!important;
+	text-align:center;
+}
+.reports-index .grid-view thead tr th:nth-child(3){
+	width: 30%!important;
+	text-align:center;
+}
+.reports-index .grid-view thead tr th:nth-child(4){
+	width: 30%!important;
+	text-align:center;
+}
+.reports-index .grid-view tr td{
+	text-align:center;
+}
+
+
+.explandow-index .grid-view thead tr th:nth-child(2){
+	width: 30%!important;
+	text-align:center;
+}
+.explandow-index .grid-view thead tr th:nth-child(3){
+	width: 30%!important;
+	text-align:center;
+}
+.explandow-index .grid-view thead tr th:nth-child(4){
+	width: 30%!important;
+	text-align:center;
+}
+.explandow-index .grid-view tr td{
+	text-align:center;
+}
+
+
+.archive-index .grid-view thead tr th:nth-child(2){
+	width: 15%!important;
+	text-align:center;
+}
+.archive-index .grid-view thead tr th:nth-child(3){
+	width: 15%!important;
+	text-align:center;
+}
+.archive-index .grid-view thead tr th:nth-child(4){
+	width: 15%!important;
+	text-align:center;
+}
+.archive-index .grid-view thead tr th:nth-child(5){
+	width: 15%!important;
+	text-align:center;
+}
+.archive-index .grid-view thead tr th:nth-child(6){
+	width: 15%!important;
+	text-align:center;
+}
+.archive-index .grid-view thead tr th:nth-child(7){
+	width: 15%!important;
+	text-align:center;
+}
+
+.archive-index .grid-view tr td{
+	text-align:center;
+}
+
+
+.guide-index .grid-view thead tr th:nth-child(2){
+	width: 30%!important;
+	text-align:center;
+}
+.guide-index .grid-view thead tr th:nth-child(3){
+	width: 30% !important;
+	text-align:center;
+}
+.guide-index .grid-view thead tr th:nth-child(4){
+	width: 30%!important;
+	text-align:center;
+}
+.guide-index .grid-view tr td{
+	text-align:center;
+}
+
+.guide-view p{
+	margin-left: 20%;
+}
+
+.guide-view table{
+	width: 60%!important;
+	margin: auto;
+}
+.guide-form{
+	margin-left: 25%;
+}
