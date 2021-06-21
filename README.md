@@ -3,12 +3,16 @@ Nomzodlar uchun test dasturi
 ```
 git init
 
-https://github.com/usmonkulov/test_vazifa.git
+git clone https://github.com/usmonkulov/test_vazifa.git
 
 composer update
 
-common\config\main-local.php Shu joyga kirib bazani sozlang
+php init
 
+Shu joyga kirib bazani sozlang
+common\config\main-local.php
+
+<?php
 return [
     'components' => [
         'db' => [
@@ -18,9 +22,21 @@ return [
             'password' => '',
             'charset' => 'utf8',
         ],
+        'mailer' => [
+            'class' => 'yii\swiftmailer\Mailer',
+            'viewPath' => '@common/mail',
+            'useFileTransport' => frue,
+             'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'smtp.yandex.com',
+                'username' => '@yandex.com',
+                'password' => '7225/',
+                'port' => '465',
+                'encryption' => 'ssl',
+            ],
+        ],
     ],
 ];
-
 
 php yii migrate
 php yii rbac/init
