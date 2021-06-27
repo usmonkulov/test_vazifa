@@ -5,7 +5,7 @@ git init
 
 git clone https://github.com/usmonkulov/test_vazifa.git
 
-composer update
+composer install
 
 php init
 
