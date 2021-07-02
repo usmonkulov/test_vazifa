@@ -37,11 +37,11 @@ return [
         ],
     ],
 ];
-
-MYSQL ga kirib baza yarating
 ```
-<img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-test_vazifa
+MYSQL ga kirib baza yarating
+<br>
+<img src="https://github.com/usmonkulov/test_vazifa/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG">
+<br>
 ```
 php yii migrate
 php yii rbac/init
