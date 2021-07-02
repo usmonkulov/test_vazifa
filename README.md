@@ -39,9 +39,10 @@ return [
 ];
 
 MYSQL ga kirib baza yarating
+```
 <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
 test_vazifa
-
+```
 php yii migrate
 php yii rbac/init
 php yii migrate/up --migrationPath=@vendor/costa-rico/yii2-images/migrations
